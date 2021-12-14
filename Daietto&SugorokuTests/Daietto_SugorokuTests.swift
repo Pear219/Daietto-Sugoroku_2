@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Daietto_Sugoroku
+@testable import Daietto&Sugoroku
 
 class Daietto_SugorokuTests: XCTestCase {
 

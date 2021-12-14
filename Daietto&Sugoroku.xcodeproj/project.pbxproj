@@ -15,6 +15,9 @@
 		419B320C2764DE2A00106C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419B320A2764DE2A00106C11 /* LaunchScreen.storyboard */; };
 		419B32172764DE2A00106C11 /* Daietto_SugorokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B32162764DE2A00106C11 /* Daietto_SugorokuTests.swift */; };
 		419B32222764DE2A00106C11 /* Daietto_SugorokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B32212764DE2A00106C11 /* Daietto_SugorokuUITests.swift */; };
+		419FAA282768A316007B0AF7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419FAA272768A316007B0AF7 /* TimerViewController.swift */; };
+		419FAA2A2768A397007B0AF7 /* KomaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419FAA292768A397007B0AF7 /* KomaViewController.swift */; };
+		419FAA2C2768A5C4007B0AF7 /* Koma2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419FAA2B2768A5C4007B0AF7 /* Koma2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		419B321D2764DE2A00106C11 /* Daietto&SugorokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daietto&SugorokuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		419B32212764DE2A00106C11 /* Daietto_SugorokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daietto_SugorokuUITests.swift; sourceTree = "<group>"; };
 		419B32232764DE2A00106C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419FAA272768A316007B0AF7 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		419FAA292768A397007B0AF7 /* KomaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomaViewController.swift; sourceTree = "<group>"; };
+		419FAA2B2768A5C4007B0AF7 /* Koma2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koma2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				419B32082764DE2A00106C11 /* Assets.xcassets */,
 				419B320A2764DE2A00106C11 /* LaunchScreen.storyboard */,
 				419B320D2764DE2A00106C11 /* Info.plist */,
+				419FAA272768A316007B0AF7 /* TimerViewController.swift */,
+				419FAA292768A397007B0AF7 /* KomaViewController.swift */,
+				419FAA2B2768A5C4007B0AF7 /* Koma2ViewController.swift */,
 			);
 			path = "Daietto&Sugoroku";
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419FAA282768A316007B0AF7 /* TimerViewController.swift in Sources */,
 				419B32042764DE2900106C11 /* ViewController.swift in Sources */,
 				419B32002764DE2900106C11 /* AppDelegate.swift in Sources */,
 				419B32022764DE2900106C11 /* SceneDelegate.swift in Sources */,
+				419FAA2A2768A397007B0AF7 /* KomaViewController.swift in Sources */,
+				419FAA2C2768A5C4007B0AF7 /* Koma2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,12 +449,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 924967QTRD;
 				INFOPLIST_FILE = "Daietto&Sugoroku/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Daietto-Sugoroku";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kato.kokona.Daietto-Sugoroku";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,12 +468,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 924967QTRD;
 				INFOPLIST_FILE = "Daietto&Sugoroku/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Daietto-Sugoroku";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kato.kokona.Daietto-Sugoroku";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,6 +487,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Daietto&SugorokuTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,6 +509,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Daietto&SugorokuTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
